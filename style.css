@@ -1,0 +1,159 @@
+/* font */
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('./fonts/TTNorms-Regular.eot');
+    src: url('./fonts/TTNorms-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/TTNorms-Regular.woff2') format('woff2'),
+        url('./fonts/TTNorms-Regular.woff') format('woff'),
+        url('./fonts/TTNorms-Regular.ttf') format('truetype'),
+        url('./fonts/TTNorms-Regular.svg#TTNorms-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('./fonts/TTNorms-Bold.eot');
+    src: url('./fonts/TTNorms-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/TTNorms-Bold.woff2') format('woff2'),
+        url('./fonts/TTNorms-Bold.woff') format('woff'),
+        url('./fonts/TTNorms-Bold.ttf') format('truetype'),
+        url('./fonts/TTNorms-Bold.svg#TTNorms-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('./fonts/TTNorms-Heavy.eot');
+    src: url('./fonts/TTNorms-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/TTNorms-Heavy.woff2') format('woff2'),
+        url('./fonts/TTNorms-Heavy.woff') format('woff'),
+        url('./fonts/TTNorms-Heavy.ttf') format('truetype'),
+        url('./fonts/TTNorms-Heavy.svg#TTNorms-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('./fonts/TTNorms-Medium.eot');
+    src: url('./fonts/TTNorms-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/TTNorms-Medium.woff2') format('woff2'),
+        url('./fonts/TTNorms-Medium.woff') format('woff'),
+        url('./fonts/TTNorms-Medium.ttf') format('truetype'),
+        url('./fonts/TTNorms-Medium.svg#TTNorms-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('./fonts/TTNorms-Light.eot');
+    src: url('./fonts/TTNorms-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/TTNorms-Light.woff2') format('woff2'),
+        url('./fonts/TTNorms-Light.woff') format('woff'),
+        url('./fonts/TTNorms-Light.ttf') format('truetype'),
+        url('./fonts/TTNorms-Light.svg#TTNorms-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('./fonts/TTNorms-ExtraBold.eot');
+    src: url('./fonts/TTNorms-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/TTNorms-ExtraBold.woff2') format('woff2'),
+        url('./fonts/TTNorms-ExtraBold.woff') format('woff'),
+        url('./fonts/TTNorms-ExtraBold.ttf') format('truetype'),
+        url('./fonts/TTNorms-ExtraBold.svg#TTNorms-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('./fonts/TTNorms-Thin.eot');
+    src: url('./fonts/TTNorms-Thin.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/TTNorms-Thin.woff2') format('woff2'),
+        url('./fonts/TTNorms-Thin.woff') format('woff'),
+        url('./fonts/TTNorms-Thin.ttf') format('truetype'),
+        url('./fonts/TTNorms-Thin.svg#TTNorms-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+
+/* font */
+
+
+/* Common Style Start */
+html{font-size:14px;padding: 0;margin: 0; outline: none;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+body{margin: 0;margin: 0; font-family: 'TT Norms'; font-size: 16px;}
+img{max-width:100%;display:inline-block;height: auto;vertical-align: middle;}
+a,button,input[type="submit"]{display: inline-block;vertical-align: middle;cursor: pointer;border: none;}
+a,button,input[type="submit"]{transition: all ease-in-out 0.3s;-webkit-transition: all ease-in-out 0.3s;-moz-transition: all ease-in-out 0.3s;}
+a:hover,a:focus,a:active{text-decoration: none;}
+span,strong,small{vertical-align: middle;display: inline-block;}
+section,main,address,aside,figure,figcaption{display: block;}
+strong,label{font-weight: bold;}
+label{vertical-align: top;}
+figure{margin: 0;}
+p{margin: 0 0 20px 0;}
+p:last-child{margin-bottom: 0;}
+h1,h2,h3,h4,h5,h6 {font-family: 'TT Norms';padding: 0;margin: 0 0 20px 0;}
+ol,ul{padding: 0;margin:0;}
+input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="number"],input[type="tel"],input[type="range"],input[type="date"],input[type="month"],input[type="week"],input[type="time"],input[type="datetime"],input[type="datetime-local"],input[type="color"],textarea{display: inline-block;width:100%;padding:5px 10px;border: 1px solid #ccc;vertical-align: middle;border-radius: 2px;}
+@media(min-width:1400px){h1{font-size: 60px; line-height: 70px;}h2{font-size: 40px; line-height: 50px;}h3{font-size: 30px; line-height: 40px;}h4{font-size: 20px; line-height: 30px;}h5{font-size: 16px; line-height: 26px;}h6{font-size: 14px; line-height: 24px;}}
+@media(max-width:1400px){h1{font-size: 50px; line-height: 60px;}h2{font-size: 30px; line-height: 40px;}h3{font-size: 20px; line-height: 30px;}h4{font-size: 18px; line-height: 28px;}h5{font-size: 16px; line-height: 26px;}h6{font-size: 14px; line-height: 24px;}}
+@media(max-width:1199px){h1{font-size: 40px; line-height: 50px;}h2{font-size: 20px; line-height: 30px;}h3{font-size: 18px; line-height: 28px;}h4{font-size: 16px; line-height: 26px;}h5{font-size: 14px; line-height: 24px;}h6{font-size: 12px; line-height: 22px;}}
+::placeholder {color: #4a4b4a !important;opacity: 1 !important;}
+::-webkit-input-placeholder {color: #4a4b4a !important;opacity: 1 !important;}
+::-moz-placeholder {color: #4a4b4a !important;opacity: 1 !important;}
+:-ms-input-placeholder {color: #4a4b4a !important;opacity: 1 !important;}
+:-moz-placeholder {color: #4a4b4a !important;opacity: 1 !important;}
+button,input[type="button"],input[type="submit"] {text-align: center;-moz-appearance: none;-webkit-appearance: none;appearance: none;cursor: pointer;}
+button:hover,input[type="button"]:hover,input[type="submit"]:hover {outline: none;text-decoration: none;}
+a:focus,button:focus {outline: 0;}
+.btn:focus,.btn.focus {outline: 0;-webkit-box-shadow: none;box-shadow: none;}
+@media(min-width:1200px){section{padding:60px 0;}}
+@media(max-width:1200px){section{padding:40px 0;}}
+@media(max-width:991px){section{padding:20px 0;}}
+@media(max-width:767px){section{padding:10px 0;}}
+/* Common Style End */
+
+/* home start */
+.header-social-controller{
+    text-align: right;
+}
+.header-social-controller li{
+    list-style: none;
+    display: inline-block;
+    margin-right:38px;
+    text-align: center;
+}
+.header-social-controller li:last-child{
+    margin-right: 0;
+}
+.header-social-controller li a{
+    color:#fff;
+    width:44px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 22px;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.header-top{
+    background: linear-gradient(0deg, #730cf9, #b547f8);
+    padding:12px 0;
+}
+
+/* home End */
