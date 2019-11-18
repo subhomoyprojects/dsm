@@ -128,12 +128,12 @@ a:focus,button:focus {outline: 0;}
 .common-btn.radius-10{ border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; -ms-border-radius:10px; -o-border-radius:10px; }
 .common-btn.radius-20{ border-radius:20px; -webkit-border-radius:20px; -moz-border-radius:20px; -ms-border-radius:20px; -o-border-radius:20px; }
 h1{font-size: 55px;line-height: 65px;}
-h2{font-size: 50px; line-height: 60px;}
+h2{font-size: 55px; line-height: 65px; font-weight: bold;}
 h3{font-size: 24px;line-height: 34px;}
 ul{list-style-type: none;}
 ul li{padding-left:15px;position: relative;}
-ul li::before{ position: absolute; width:7px; height: 7px; background-color: #d264f8; top:2px; left:0; content: ''; border-radius: 100%; -webkit-border-radius: 100%; -moz-border-radius: 100%; -ms-border-radius: 100%; -o-border-radius: 100%; }
-.learn-more{font-size: 14px; font-weight: normal;}
+ul li::before{ position: absolute; width:7px; height: 7px; background-color: #d264f8; top:8px; left:0; content: ''; border-radius: 100%; -webkit-border-radius: 100%; -moz-border-radius: 100%; -ms-border-radius: 100%; -o-border-radius: 100%; }
+.learn-more{font-size: 16px; font-weight: bold;}
 
 
 
@@ -149,7 +149,9 @@ ul li::before{ position: absolute; width:7px; height: 7px; background-color: #d2
     display: inline-block;
     margin-right:38px;
     text-align: center;
+    padding:0;
 }
+.header-social-controller li::before{display: none;}
 .header-social-controller li:last-child{
     margin-right: 0;
 }
@@ -293,7 +295,7 @@ ul li::before{ position: absolute; width:7px; height: 7px; background-color: #d2
 .dev-content-holder .learn-more{
     color:#fff;
     text-transform: uppercase;
-    margin:30px 0 0;
+    margin:10px 0 0;
 }
 .pink-card{
     background:linear-gradient(0deg, #b869e8, #fb74be);
@@ -304,8 +306,155 @@ ul li::before{ position: absolute; width:7px; height: 7px; background-color: #d2
 .violet-card{
     background:linear-gradient(0deg, #79c4fc, #9f2ef5);
 }
-
-
-
+/*---*/
+.offer-wrapper{
+    background: linear-gradient(0deg, #5c03d1, #ab2bef);
+    color:#fff;
+}
+.offer-text .offer-sub{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    line-height: 30px;
+    max-width: 500px;
+}
+.offer-text h2{
+    text-transform: uppercase;
+    font-size: 62px;
+    font-weight: bold;
+    line-height: 72px;
+}
+.offer-text p:not(.offer-sub){
+    font-size: 18px;
+}
+.offer-text li:before{
+    content: "";
+    background: url(./images/tick.png) no-repeat;
+    background-size: 26px auto;
+    width:26px;
+    height: 26px;
+    top:0;
+}
+.offer-text ul{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 580px;
+}
+.offer-text li{
+    padding-left:40px;
+    flex: 0 0 48%;
+    max-width: 48%;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.offer-img{
+    display: flex;
+    align-items: center;
+}
+.offer-img img{
+    max-width: 630px;
+    margin: 0 auto;
+}
+/*---*/
+.protfolio-holder{
+    display: flex;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}
+.protfolio-holder li{
+    flex: 0 0 33.33%;
+    max-width: 33%;
+    margin-bottom: 30px;
+    padding-left: 0;
+    max-height: 340px;
+    overflow: hidden;
+}
+.protfolio-holder li a{
+    display: block;
+    height: 100%;
+}
+.protfolio-holder li img{
+    max-height: 100%;
+    height: 100%;
+}
+.protfolio-holder li::before{
+    display: none;
+}
+.projects-wrapper h2{
+    text-transform: uppercase;
+    color:#2c247a;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.projects-controller .common-btn{
+    margin-top:30px;
+}
+/*--*/
+.pricing-wrapper{
+    background:url(./images/pricing.svg) no-repeat;
+    background-size: cover;
+    padding:150px 0;
+    color:#fff;
+}
+.pricing-wrapper h2{
+    text-transform: uppercase;
+    margin: 70px 0 30px;
+    text-align: center;
+}
+.pricing-card{
+    background:linear-gradient(0deg, #f906f0,  #5d1be6);
+    width:92%;
+    margin: 0 auto;
+}
+.pricing-card h3{
+    font-size: 30px;
+}
+.pricing-card h4{
+    font-size: 60px;
+    font-weight: 800;
+}
+.pricing-card .dev-content-holder{
+    padding: 0;
+}
+/*--*/
+.prcess-flow{
+    color:#2c247a;
+    text-align: center;
+}
+.prcess-flow h2{
+    text-transform: uppercase;
+}
+.prcess-flow p{
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.work-process-holder span{
+    width:192px;
+    height: 192px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    overflow: hidden;
+    box-shadow:0 0 5px rgba(28,26,26,0.4);
+}
+.work-process-holder h4{
+    color:#1f2f40;
+    font-weight:bold;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+.work-process-holder{
+    text-align:center;
+}
+.work-process-holder p{
+    font-size: 18px;
+    color:#1f2f40;
+}
 
 /* home End */
