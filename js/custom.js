@@ -49,27 +49,33 @@ jQuery(document).ready(function () {
   // wordpress menu end
 
   //logo_slider
-  $('.logo_slider').slick({
-    infinite: false,
-    slidesToShow: 3,
+  $('.partners-logo').slick({
+    infinite: true,
+    slidesToShow: 6,
     slidesToScroll: 1,
     dots: false,
     arrows: true,
-    autoplay: false,
-    autoplaySpeed: 5000,
+    autoplay: true,
+    autoplaySpeed: 2000,
     speed: 500,
     pauseOnFocus: false,
     pauseOnHover: false,
     responsive: [{
+        breakpoint: 1199,
+        settings: {
+          slidesToShow: 5
+        }
+      },
+      {
         breakpoint: 991,
         settings: {
-          slidesToShow: 2
+          slidesToShow: 4
         }
       },
       {
         breakpoint: 767,
         settings: {
-          slidesToShow: 1
+          slidesToShow: 3
         }
       },
       {
@@ -81,34 +87,9 @@ jQuery(document).ready(function () {
     ]
   });
 
-  //review_slider
-  $('.review_slider').slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    dots: true,
-    arrows: false,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    speed: 500,
-    pauseOnFocus: false,
-    pauseOnHover: false
-  });
+// Light Box
 
+  $('#lightgallery').lightGallery();
 
-  //Horizontal Tab
-  $('#parentHorizontalTab').easyResponsiveTabs({
-    type: 'default', //Types: default, vertical, accordion
-    width: 'auto', //auto or any width like 600px
-    fit: true, // 100% fit in a container
-    tabidentify: 'hor_1', // The tab groups identifier
-    activate: function (event) { // Callback function if tab is switched
-      var $tab = $(this);
-      var $info = $('#nested-tabInfo');
-      var $name = $('span', $info);
-      $name.text($tab.text());
-      $info.show();
-    }
-  });
 
 });
