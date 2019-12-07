@@ -1,92 +1,4 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
-  <link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
-
-  <title>DMS</title>
-
-  <meta name="description" content="Welcome To DSIGNMARK SOLUTIONS, One-Stop Creative &amp; Astonishing Design Solutions For Your Business Journey">
-  <meta name="keywords" content="DMS">
-  <meta name="author" content="DMS Design and Development Company">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap.css">
-
-  <!--fontawesome CDN-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" crossorigin="anonymous">
-  <!--plugins-->
-  <link rel="stylesheet" href="css/slick.css">
-  <!--style for page-->
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-  <header class="header-wrapper">
-    <div class="header-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 header-social">
-            <ul class="header-social-controller">
-              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <nav class="navbar navbar-expand-md">
-      <div class="container">
-        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="DSM"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto custom-nav-hover-effect">
-            <li class="active">
-              <a href="#"><span data-hover="Home">Home</span></a>
-            </li>
-            <li>
-              <a href="#"><span data-hover="About">About</span></a>
-            </li>
-            <li>
-              <a href="#"><span data-hover="Portfolio">Portfolio</span></a>
-            </li>
-            <li>
-              <a href="#"><span data-hover="Features">Features</span></a>
-            </li>
-            <li>
-              <a href="#"><span data-hover="Services">Services</span></a>
-            </li>
-            <li>
-              <a href="#"><span data-hover="Blog">Blog</span></a>
-            </li>
-            <!-- <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li> -->
-          </ul>
-        </div>
-        <a href="#" class="common-btn radius-30 uppercase follow-us">Follow Us</a>
-      </div>
-    </nav>
-  </header>
-
+<?php include('header.php'); ?>
   <section class="banner-wrapper">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -99,8 +11,8 @@
           <!-- <img src="https://via.placeholder.com/1920X600" alt="Banner"> -->
           <div class="carousel-caption">
             <div class="banner-text">
-              <h1><span>Lorem ipsum dolor sit amet,</span>We bring you <br> modern website design<br> & development</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>
+              <h1><span>Welcome To Dsignmark Solutions,</span>We bring modern <br> website design<br> and development</h1>
+              <p>One-Stop Creative &amp; Astonishing Design <br> Solutions For Your Business Journey</p>
               <a href="#" class="common-btn radius-10 font-24">Get a Quote</a>
               <ul class="google-partner">
                 <li><img src="images/google-rating.png" alt="Google Rating"></li>
@@ -121,30 +33,33 @@
       <div class="row">
         <div class="col-md-4">
           <div class="dev-card pink-card">
-            <div class="img-holder"><img src="images/dev-card-1.png" alt="Dev Image"></div>
+            <div class="img-holder"><img src="images/graphic-design.png" alt="Graphics Design"></div>
             <div class="dev-content-holder">
-              <h3>Website Development</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </p>
+              <h3>Graphic design</h3>
+              <h6>Graphics make you professional</h6>
+              <p>Logo a.k.a. Brand Always Represents The Uniqueness Of Your Business</p>
               <a href="#" class="learn-more">Learn More</a>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="dev-card sky-blue-card">
-            <div class="img-holder"><img src="images/dev-card-2.png" alt="Dev Image"></div>
+            <div class="img-holder"><img src="images/webdevlopment.png" alt="Web Devlopment"></div>
             <div class="dev-content-holder">
               <h3>Website Development</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </p>
+              <h6>Being Full Is Better Than Empty!</h6>
+              <p> Colorful Background That  Create An Eye-Catching Impression For The Visitors </p>
               <a href="#" class="learn-more">Learn More</a>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="dev-card violet-card">
-            <div class="img-holder"><img src="images/dev-card-3.png" alt="Dev Image"></div>
+            <div class="img-holder"><img src="images/seo.png" alt="Dev Image"></div>
             <div class="dev-content-holder">
-              <h3>Website Development</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </p>
+              <h3>Digital merketing</h3>
+              <h6>Visit Globally With An Identity!</h6>
+              <p>An Identity Secures The Parameter Of A Business Wherever You Visits </p>
               <a href="#" class="learn-more">Learn More</a>
             </div>
           </div>
@@ -159,18 +74,19 @@
         <div class="col-md-6 offer-img">
           <img src="images/offer-img.png" alt="Offer Image">
         </div>
-        <div class="col-md-6 offer-text">
-          <p class="text-uppercase offer-sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-          <h2>we offer  a wide range of services</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-          <ul>
-            <li>Web & Graphic Design</li>
-            <li>Web & Graphic Design</li>
-            <li>Web & Graphic Design</li>
-            <li>Web & Graphic Design</li>
-            <li>Web & Graphic Design</li>
-            <li>Web & Graphic Design</li>
-          </ul>
+        <div class="col-md-6 offer-text v-center">
+          <div>
+            <!-- <p class="text-uppercase offer-sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p> -->
+            <h2>Our design and Development success process</h2>
+            <ul>
+              <li>Define The Problem</li>
+              <li>Improve Your Design</li>
+              <li>Collect Information</li>
+              <li>Brainstorm & Analysis</li>
+              <li>Present Your Ideas</li>
+              <li>Develop Solutions</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -336,61 +252,4 @@
       </div>
     </div>
   </section>
-
-  <footer class="common-gap footer-wrapper">
-    <div class="footer-main">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="footer-logo"><img src="images/logo.png" alt="DMS"></div>
-          </div>
-          <div class="col-md-3">
-            <h4>Useful Links</h4>
-            <ul class="footer-link">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms & Conditions</a></li>
-              <li><a href="#">contact Us</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-            <h4>Pages Link</h4>
-            <ul class="footer-link">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms & Conditions</a></li>
-              <li><a href="#">Feature</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-            <h4>Contact Info</h4>
-            <ul class="footer-link contact-info">
-              <li class="map-pointer"><span>Lorem ipsum dolor sit amet,</span></li>
-              <li class="phone-call"><a href="tel:918888888888">91+8888888888</a></li>
-              <li class="envelope"><a href="mailto:dsignmarksolution@gmail.com">dsignmarksolution@gmail.com</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <audio autoplay class="intro">
-    <source src="images/intro.ogg" type="audio/ogg">
-    <source src="images/intro.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio> 
-
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="js/slick.min.js"></script>
-  <script src="js/jquery.mousewheel.min.js"></script>
-  <script src="js/lightgallery-all.min.js"></script>
-  <script src="js/custom.js"></script>
-
-</body>
-
-</html>
+  <?php include('footer.php'); ?>
