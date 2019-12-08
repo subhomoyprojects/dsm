@@ -91,5 +91,11 @@ jQuery(document).ready(function () {
 
   $('#lightgallery').lightGallery();
 
+  // Animation
+
+  AOS.init();
+
+  // Active Navigation
+
 
 });
