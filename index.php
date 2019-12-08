@@ -2,9 +2,9 @@
   <section class="banner-wrapper" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-        <!--<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+        <!--<li data-target="comming-soon.phpcarouselExampleIndicators" data-slide-to="0" class="active"></li>
+         <li data-target="comming-soon.phpcarouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="comming-soon.phpcarouselExampleIndicators" data-slide-to="2"></li> -->
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -13,7 +13,7 @@
             <div class="banner-text">
               <h1><span>Welcome To Dsignmark Solutions,</span>We bring modern <br> website design<br> and development</h1>
               <p>One-Stop Creative &amp; Astonishing Design <br> Solutions For Your Business Journey</p>
-              <a href="#" class="common-btn radius-10 font-24">Get a Quote</a>
+              <a href="comming-soon.php" class="common-btn radius-10 font-24">Get a Quote</a>
               <ul class="google-partner">
                 <li><img src="images/google-rating.png" alt="Google Rating"></li>
                 <li><img src="images/partner.png" alt="Partner"></li>
@@ -38,7 +38,7 @@
               <h3>Graphic design</h3>
               <h6>Graphics make you professional</h6>
               <p>Logo a.k.a. Brand Always Represents The Uniqueness Of Your Business</p>
-              <a href="#" class="learn-more">Learn More</a>
+              <a href="comming-soon.php" class="learn-more">Learn More</a>
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@
               <h3>Website Development</h3>
               <h6>Being Full Is Better Than Empty!</h6>
               <p> Colorful Background That  Create An Eye-Catching Impression For The Visitors </p>
-              <a href="#" class="learn-more">Learn More</a>
+              <a href="comming-soon.php" class="learn-more">Learn More</a>
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@
               <h3>Digital merketing</h3>
               <h6>Visit Globally With An Identity!</h6>
               <p>An Identity Secures The Parameter Of A Business Wherever You Visits </p>
-              <a href="#" class="learn-more">Learn More</a>
+              <a href="comming-soon.php" class="learn-more">Learn More</a>
             </div>
           </div>
         </div>
@@ -168,14 +168,14 @@
       <div class="row">
         <div class="col-sm-12 projects-controller">
           <ul id="lightgallery" class="protfolio-holder">
-            <li data-aos="flip-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-src="images/protfolio1.png" data-sub-html="<h4>Logo</h4><p>Logo a.k.a. Brand Always Represents The Uniqueness Of Your Business</p>"><a href="#"><img src="images/protfolio1.png" alt="Protfolio"><span><i class="fas fa-search"></i></span></a></li>
-            <li data-aos="flip-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-src="images/protfolio2.png" data-sub-html="<h4>Website</h4><p>Testing</p>"><a href="#"><img src="images/protfolio2.png" alt="Protfolio"><span><i class="fas fa-search"></i></span></a></li>
-            <li data-aos="flip-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-src="images/protfolio3.png" data-sub-html="<h4>Hoarding</h4><p>Business only needs brodcast and publicity to accelerate growth..</p>"><a href="#"><img src="images/protfolio3.png" alt="Protfolio"><span><i class="fas fa-search"></i></span></a></li>
-            <li data-aos="flip-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-src="images/protfolio4.png" data-sub-html="<h4>Website</h4><p>We give wings to your business you decide where to fly.</p>"><a href="#"><img src="images/protfolio4.png" alt="Protfolio"><span><i class="fas fa-search"></i></span></a></li>
-            <li data-aos="flip-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-src="images/protfolio5.png" data-sub-html="<h4>Business Card</h4><p>We will help you to growth your business by offline.</p>"><a href="#"><img src="images/protfolio5.png" alt="Protfolio"><span><i class="fas fa-search"></i></span></a></li>
-            <li data-aos="flip-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-src="images/protfolio6.png" data-sub-html="<h4>Certificates</h4><p>Make your business professional</p>"><a href="#"><img src="images/protfolio6.png" alt="Protfolio"><span><i class="fas fa-search"></i></span></a></li>
+            <li data-aos="flip-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-src="images/protfolio1.png" data-sub-html="<h4>Logo</h4><p>Logo a.k.a. Brand Always Represents The Uniqueness Of Your Business</p>"><a href="comming-soon.php"><img src="images/protfolio1.png" alt="Protfolio"><span><i class="fas fa-search"></i></span></a></li>
+            <li data-aos="flip-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-src="images/protfolio2.png" data-sub-html="<h4>Website</h4><p>Testing</p>"><a href="comming-soon.php"><img src="images/protfolio2.png" alt="Protfolio"><span><i class="fas fa-search"></i></span></a></li>
+            <li data-aos="flip-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-src="images/protfolio3.png" data-sub-html="<h4>Hoarding</h4><p>Business only needs brodcast and publicity to accelerate growth..</p>"><a href="comming-soon.php"><img src="images/protfolio3.png" alt="Protfolio"><span><i class="fas fa-search"></i></span></a></li>
+            <li data-aos="flip-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-src="images/protfolio4.png" data-sub-html="<h4>Website</h4><p>We give wings to your business you decide where to fly.</p>"><a href="comming-soon.php"><img src="images/protfolio4.png" alt="Protfolio"><span><i class="fas fa-search"></i></span></a></li>
+            <li data-aos="flip-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-src="images/protfolio5.png" data-sub-html="<h4>Business Card</h4><p>We will help you to growth your business by offline.</p>"><a href="comming-soon.php"><img src="images/protfolio5.png" alt="Protfolio"><span><i class="fas fa-search"></i></span></a></li>
+            <li data-aos="flip-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-src="images/protfolio6.png" data-sub-html="<h4>Certificates</h4><p>Make your business professional</p>"><a href="comming-soon.php"><img src="images/protfolio6.png" alt="Protfolio"><span><i class="fas fa-search"></i></span></a></li>
           </ul>
-          <div class="text-center"><a href="#" class="common-btn radius-20 uppercase">View All Projects</a></div>
+          <div class="text-center"><a href="comming-soon.php" class="common-btn radius-20 uppercase">View All Projects</a></div>
         </div>
       </div>
     </div>

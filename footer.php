@@ -26,14 +26,14 @@
           <div class="col-md-3">
             <h4 data-aos="fade-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">Contact Info</h4>
             <ul class="footer-link contact-info">
-              <li data-aos="fade-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" class="map-pointer"><span>Lorem ipsum dolor sit amet,</span></li>
-              <li data-aos="fade-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" class="phone-call"><a href="tel:918888888888">91+8888888888</a></li>
+              <li data-aos="fade-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" class="map-pointer"><span>Pearapur Majhipara, <br>Sheoraphuli, Hooghly, Pin- 712223,(W.B)</span></li>
+              <li data-aos="fade-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" class="phone-call"><a href="tel:918420946126">(91+)8420946126</a></li>
               <li data-aos="fade-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" class="envelope"><a href="mailto:dsignmarksolution@gmail.com">dsignmarksolution@gmail.com</a></li>
             </ul>
             <ul class="social-link-footer">
-              <li data-aos="fade-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-              <li data-aos="fade-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"><a href="#"><i class="fab fa-twitter"></i></a></li>
-              <li data-aos="fade-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+              <li data-aos="fade-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"><a href="https://www.facebook.com/dsignmarksolutions" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+              <li data-aos="fade-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"><a href="javascript:void(0)" target="_blank"><i class="fab fa-twitter"></i></a></li>
+              <li data-aos="fade-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"><a href="javascript:void(0)" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
             </ul>
           </div>
         </div>

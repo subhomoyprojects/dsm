@@ -15,6 +15,7 @@
   <meta name="description" content="Welcome To DSIGNMARK SOLUTIONS, One-Stop Creative &amp; Astonishing Design Solutions For Your Business Journey">
   <meta name="keywords" content="DMS">
   <meta name="author" content="DMS Design and Development Company">
+  <meta name="format-detection" content="telephone=no" />
 
   <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -41,9 +42,9 @@
         <div class="row">
           <div class="col-md-12 header-social">
             <ul class="header-social-controller">
-              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="https://www.facebook.com/dsignmarksolutions" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="javascript:void(0)" target="_blank"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="javascript:void(0)" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
             </ul>
           </div>
         </div>
