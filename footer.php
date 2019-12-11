@@ -5,7 +5,7 @@
           <div class="col-md-12 col-lg-3">
             <div class="footer-logo"><img src="images/logo.png" alt="DMS"></div>
           </div>
-          <div class="col-md-4 col-lg-3">
+          <div class="col-sm-6 col-md-4 col-lg-3">
             <h4>Useful Links</h4>
             <ul class="footer-link">
               <li ><a href="comming-soon.php">About Us</a></li>
@@ -14,7 +14,7 @@
               <li ><a href="comming-soon.php">contact Us</a></li>
             </ul>
           </div>
-          <div class="col-md-4 col-lg-3">
+          <div class="col-sm-6 col-md-4 col-lg-3">
             <h4 >Others Link</h4>
             <ul class="footer-link">
               <li ><a href="comming-soon.php">Portfolio</a></li>
@@ -23,7 +23,7 @@
               <li ><a href="comming-soon.php">Site map</a></li>
             </ul>
           </div>
-          <div class="col-md-4 col-lg-3">
+          <div class="col-sm-12 col-md-4 col-lg-3">
             <h4 >Contact Info</h4>
             <ul class="footer-link contact-info">
               <li  class="map-pointer"><span>Pearapur Majhipara, <br>Sheoraphuli, Hooghly, Pin- 712223,(W.B)</span></li>
