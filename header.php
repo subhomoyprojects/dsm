@@ -27,9 +27,9 @@
   <!--fontawesome CDN-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" crossorigin="anonymous">
   <!--plugins-->
-  <link rel="stylesheet" href="css/slick.css">
+  <!-- <link rel="stylesheet" href="css/slick.css"> -->
   <!-- <link rel="stylesheet" href="css/aos.css"> -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
   <!--style for page-->
   <link rel="stylesheet" href="custom.css">
 </head>

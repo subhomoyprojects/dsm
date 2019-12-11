@@ -29,7 +29,7 @@ jQuery(document).ready(function () {
         }
       },
       {
-        breakpoint: 991,
+        breakpoint: 992,
         settings: {
           slidesToShow: 4
         }
